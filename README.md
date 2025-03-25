@@ -1,18 +1,51 @@
+# BitLinks - URL Shortener
+A simple URL shortener built using the MERN stack (MongoDB, Express, React, Node.js). This app allows users to shorten long URLs and access them easily through a unique short link.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Features
+1. Shorten long URLs into easily manageable links.
+2. Track how many times a short URL has been accessed.
+3. Clean and simple user interface.
 
-First, run the development server:
+# Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+| 🌐 Technology     | 📖 Documentation                                   |
+|-------------------|----------------------------------------------------|
+| **React**         | [React Docs](https://react.dev/)                   |
+| **Node.js**       | [Node.js Docs](https://nodejs.org/)                |
+| **Express**       | [Express Docs](https://expressjs.com/)             |
+| **MongoDB**       | [MongoDB Docs](https://www.mongodb.com/docs/)      |
+
+
+# Getting Started
+
+1️⃣ Clone the Repository
+<pre> <code> git clone https://github.com/Manan-Joshi750/BitLinks-URL_Shortener.git cd BitLinks-URL_Shortener </code> </pre>
+
+2️⃣ Install Dependencies
+In both the frontend and backend folders, install the necessary dependencies :
+
+<pre> <code> npm install cd frontend && npm install cd backend && npm install </code> </pre>
+
+3️⃣ Configure .env File
+In the backend folder, create a .env file with the following contents :
+
+<pre>
+  <code>
+    NODE_ENV=development/production  
+    PORT=3000
+    MONGO_URI=<Your MongoDB URI>  
+    JWT_SECRET=<Your JWT Secret> 
+  </code>
+</pre>
+
+4️⃣ Start the Development Server
+Run the application with one of the following commands :
+
+<pre> <code> npm run dev # or yarn dev # or pnpm dev # or bun dev </code> </pre>
+
+5️⃣ Open the Application
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
